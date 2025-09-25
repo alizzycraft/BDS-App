@@ -1,0 +1,46 @@
+{
+  "name": "bds-app",
+  "version": "1.0.0",
+  "description": "BDS App — Basic Distributed Syndication Application.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-erin-collective/BDS-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-erin-collective/BDS-App/issues"
+  },
+  "homepage": "https://github.com/the-erin-collective/BDS-App#readme",
+  "dependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "next": "^15.5.4",
+    "postcss": "^8.5.6",
+    "prisma": "^6.16.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "tailwindcss": "^4.1.13"
+  }
+}
